@@ -7,9 +7,10 @@
     opacity: 0;
   }
 }
+
 #page {
   display: grid;
-  width: 100%
+  width: 100%;
   height: 250px;
   grid-template-areas: "head head"
                        "nav  main"
@@ -27,8 +28,6 @@ text-align: center;
     font-family: Apple Chancery;
     color: white;
     font-style: italic;
-    
-    
 }
 
 #page > nav {
@@ -36,11 +35,8 @@ text-align: center;
     padding: 20px;
     align-content:center;
     text-align: center;
-  background-color: whitesmoke;
-
-
+    background-color: whitesmoke;
     font-family:sans-serif;
-    font-display: fallback;
     margin-top: 10px;
     font-size:16px;
 }
@@ -49,9 +45,7 @@ text-align: center;
   grid-area: main;
 background-color: #fffdf6;
 background-image: linear-gradient(315deg, #fffdf6 0%, #fddac5 74%);
-
 padding: 10px;
-
 }
 
 #page > footer {
@@ -59,37 +53,28 @@ padding: 10px;
   background-color: lightcoral;
 }
 
-
-
-
 .blockquote {
   background: lightcoral;
   border-left: 10px solid red;
- 
   quotes: "\201C""\201D""\2018""\2019";
     box-shadow: 5px 10px red;
 }
+
 .blockquote:before {
   color: white;
   content: open-quote;
   font-size: 150px;
   line-height: 160px;
-  
   vertical-align: 0;
     }
-}
 
 .normalText {
-    
     font-size: 17px;
-
     color: black;
-    text-align: center;
-    
-    
+    text-align: center;   
 }
-.author {
-    
+
+.author { 
  width:200px;
   height:200px;
   object-fit:cover;
@@ -111,6 +96,7 @@ padding: 10px;
                    250px 750px 250px 750px;
   }
 }
+
 #foodporn {
     width: 350px;
     height: 370px;
@@ -126,21 +112,20 @@ div.item {
    display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-    
+  width: 50%;    
 }
+
 img {
     width: 100%;
     height: auto;
-    
     border-color: lightcoral;
     border-style:groove;
     border-radius: 20px;
     box-shadow: 5px 10px grey;
 }
+
 .caption {
-    display: block;
-   
+    display: block; 
 }
 
 a:link {
@@ -149,7 +134,7 @@ text-decoration: none;
 }
 
 a:visited {
-  color: blacks;
+  color: black;
     text-decoration: none;
 }
 
@@ -169,25 +154,22 @@ a:active {
   object-fit:cover;
   border-radius:100%;
     float: right;
-    border-radius: 100%
-    
+    border-radius: 100%   
 }
 
-
 .box {
-            display: flex;
-          }
+  display: flex;
+ }
+
 #flex {
-    background-color:white;
-    
+    background-color:white;    
     margin: 10%;
     padding: 10%;
-box-shadow: 5px 10px #888888
+box-shadow: 5px 10px #888888;
 font-family:sans-serif;
 font-size:8px;
 word-spacing: 2px;
-line-height: 30px;
-   
+line-height: 30px;  
 }
 
 .foodpic{
@@ -196,32 +178,32 @@ line-height: 30px;
     width: 240px;
     text-align: left;
 }
+
 #head{
-   
-    text-shadow: 0px 3px 0px #b2a98f,
+      text-shadow: 0px 3px 0px #b2a98f,
                  0px 14px 10px rgba(0,0,0,0.15),
                  0px 24px 2px rgba(0,0,0,0.1),
-                 0px 34px 30px rgba(0,0,0,0.1);}
+                 0px 34px 30px rgba(0,0,0,0.1);
+}
+
 .boxpapaya {
   float: left;
   margin: 3%;
-margin-top: 2.2%;
+  margin-top: 2.2%;
   width: 15%;
   height: auto;
   border-radius: 5px;
-    
-
   padding: 4%;
-text-align: center;
-    font-family:serif;
-    border-color: black;
-    border-style:double;
-   line-height: 30px;
+  text-align: center;
+  font-family:serif;
+  border-color: black;
+  border-style:double;
+  line-height: 30px;
 }
+
 #papayahead {
     text-align: center;
     background-color: lightcoral;
-
     font-family:cursive;
     font-size: 35px;
     color: white;
@@ -242,15 +224,14 @@ border-radius: 0px;
     margin-left: 35%;
     word-spacing: 1px;
     font-family: sans-serif;
-    line-height: 40px;
-    
+    line-height: 40px;    
 }
+
  .boxroll {
             display: flex;
-            justify-content: space-between;
-     
-     
+            justify-content: space-between;     
           }
+
 .rollsbox {
     border-color: black;
     border-style:groove;
@@ -259,8 +240,5 @@ border-radius: 0px;
     margin-left:2%;
     line-height: 35px;
     font-family: sans-serif;
-       
-       
-
 }
 
